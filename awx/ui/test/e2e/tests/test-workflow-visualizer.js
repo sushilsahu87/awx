@@ -22,7 +22,7 @@ let initialProjectNodeId;
 let initialInventoryNodeId;
 let newChildNodeId;
 let leafNodeId;
-const nodeAdd = "//*[contains(@class, 'WorkflowChart-nodeAddIcon')]";
+const nodeAdd = "//*[contains(@class, 'WorkflowChart-nodeAdd')][2]";
 const nodeRemove = "//*[contains(@class, 'WorkflowChart-nodeRemoveIcon')]";
 
 // search bar for visualizer templates
